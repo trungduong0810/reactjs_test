@@ -1,0 +1,24 @@
+Chương 3: Tìm hiểu về react hook useState va useReducer
+
+useState 
+1. stateless, stateful
+    - stateless functional component: component nhưng không sử dụng state.
+    - stateful functional component: component có sử dụng state.
+
+2. các bước sử dụng state
+    - enabling state: useState(initialize value)
+    - initialize state: useState(false)
+    - reading state:
+    - update state
+    
+3. Nguyên tắt khi viết useState
+    - Viêt useState ở trên đầu component
+    - Không viết trong vòng lặp -> lỗi
+    - Không viết trong function -> lỗi
+
+useReducer
+1. init state: 0 (gia tri khoi tao = 0)
+2. Action: up(state + 1) down(state - 1)
+3. Reducer
+4. Dispatch
+

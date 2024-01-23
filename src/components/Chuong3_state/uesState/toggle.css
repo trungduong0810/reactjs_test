@@ -1,0 +1,55 @@
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(89, 89, 89);
+}
+.toggle {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  padding: 5px;
+  background-color: rgb(228, 228, 228);
+  border-radius: 100rem;
+  transition: all 0.25s linear;
+  cursor: pointer;
+}
+.toggle.active {
+  background-color: red;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(192, 192, 192);
+  transition: all 0.25s linear;
+}
+.spinner.active{
+    transform: translateX(50px);
+    background-color: rgb(166, 0, 30);
+}
+.control__toggle {
+  display: block;
+  width: 200px;
+  margin: 24px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.toggle__btn {
+  width: 70px;
+  height: 30px;
+  color: aliceblue;
+  font-weight: bold;
+  border-radius: 100rem;
+}
+.toggle__on {
+  background-color: green;
+}
+.toggle__of{
+    background-color: brown;
+}
